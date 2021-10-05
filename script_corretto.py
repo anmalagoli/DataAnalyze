@@ -63,7 +63,7 @@ class window_Tk():
             lf.place(x=Xt,y=Yt)
         elif arg=='pf':
             pf = ttk.Combobox(window, 
-                            values=["NO FILTERS","PASSA BASSO","PASSA ALTO","PASSA BANDA"])
+                            values=["NO FILTERS","LOW PASS","HIGH PASS","BAND PASS"])
             pf.current(0)
             pf.place(x=Xt,y=Yt)
 
