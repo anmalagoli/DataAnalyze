@@ -102,7 +102,7 @@ class window_Tk():
             plt.plot(self.__class__.ordinata_x,self.__class__.ordinata_y_filtrata)
             plt.show()
         else:
-            messagebox.showinfo('ATTENZIONE','ERRORE DURANTE LA CREAZIONE DEL GRAFICO, RICONTROLLARE I DATI')
+            messagebox.showinfo('ATTENTION','ERROR DURANTE LA CREAZIONE DEL GRAFICO, RICONTROLLARE I DATI')
 
     def disegna_grafico_spettro(self):
         N = len(self.__class__.ordinata_y_filtrata)  # Number of sample points
